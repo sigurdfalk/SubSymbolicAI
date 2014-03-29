@@ -2,8 +2,8 @@ package evolutionaryAlgoritm;
 
 import utilities.Statistics;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * User: sigurd
@@ -29,7 +29,7 @@ public class ParentSelection {
             case SIGMA_SCALING:
                 return sigmaScaling(adults);
             case TOURNAMENT_SELECTION:
-
+                return tournamentSelection(adults);
             case RANK_SELECTION:
                 return rankSelection(adults);
             default:
@@ -90,7 +90,7 @@ public class ParentSelection {
     private Individual[] getParents(Individual[] adults, double[] rouletteWheel) {
         Individual[] parents = new Individual[Parameters.POPULATION_SIZE - Parameters.ELITISM_COUNT];
 
-        for (int i = 0; i < parents.length; i++) {
+        for (int i = 0; i < (parents.length + Parameters.OVER_PRODUCTION_COUNT); i++) {
             parents[i] = adults[getRouletteWheelIndex(rouletteWheel)].clone();
         }
 
@@ -111,5 +111,27 @@ public class ParentSelection {
         }
 
         return i - 1;
+    }
+
+    private Individual[] tournamentSelection(Individual[] adults) {
+        Individual[] parents = new Individual[Parameters.POPULATION_SIZE - Parameters.ELITISM_COUNT];
+        Random random = new Random();
+
+        for (int i = 0; i < parents.length; i++) {
+            Individual[] tournamentGroup = new Individual[Parameters.TOURNAMENT_SELECTION_K];
+
+            for (int j = 0; j < tournamentGroup.length; j++) {
+                tournamentGroup[i] = adults[random.nextInt(adults.length)].clone();
+            }
+
+            if (Parameters.TOURNAMENT_SELECTION_e > Math.random()) {
+                parents[i] = tournamentGroup[random.nextInt(tournamentGroup.length)];
+            } else {
+                Arrays.sort(tournamentGroup);
+                parents[i] = tournamentGroup[0];
+            }
+        }
+
+        return parents;
     }
 }

@@ -23,7 +23,7 @@ public class AdultSelection {
             case FULL_GENERATIONAL_REPLACEMENT:
                 return fullGenerationalReplacement(children);
             case OVER_PRODUCTION:
-
+                return overProduction(adults, children);
             case GENERATIONAL_MIXING:
                 return generationalMixing(adults, children);
             default:
@@ -33,6 +33,11 @@ public class AdultSelection {
 
     private Individual[] fullGenerationalReplacement(Individual[] children) {
         return Arrays.copyOfRange(children, 0, Parameters.POPULATION_SIZE);
+    }
+
+    private Individual[] overProduction(Individual[] adults, Individual[] children) {
+        Arrays.sort(children);
+        return Arrays.copyOfRange(children, 0, adults.length);
     }
 
     private Individual[] generationalMixing(Individual[] adults, Individual[] children) {

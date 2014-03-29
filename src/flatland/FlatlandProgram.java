@@ -32,7 +32,7 @@ public class FlatlandProgram {
 
         neuralNet.setWeights(weights);
         for (int i = 0; i < 5; i++) {
-            FlatlandController flatlandController = new FlatlandController(100);
+            FlatlandController flatlandController = new FlatlandController(50);
             flatlandController.runGame(neuralNet, true);
         }
     }
