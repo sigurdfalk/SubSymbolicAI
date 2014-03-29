@@ -134,4 +134,20 @@ public class ParentSelection {
 
         return parents;
     }
+
+    @Override
+    public String toString() {
+        switch (type) {
+            case FITNESS_PROPORTIONATE:
+                return "Fitness Proportionate";
+            case SIGMA_SCALING:
+                return "Sigma Scaling";
+            case TOURNAMENT_SELECTION:
+                return "Tournament Selection";
+            case RANK_SELECTION:
+                return "Rank Selection";
+            default:
+                return "";
+        }
+    }
 }

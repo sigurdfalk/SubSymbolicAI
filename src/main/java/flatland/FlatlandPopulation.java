@@ -85,14 +85,14 @@ public class FlatlandPopulation extends Population {
 
         for (FlatlandController flatlandController : flatlandControllers) {
             FlatlandController controller = flatlandController.clone();
-            controller.runGame(neuralNet, false);
+            controller.runGame(neuralNet, false, 0);
 
             double totalFood = controller.getFlatlandBoard().getTotalFood();
             double foodConsumed = controller.getFlatlandBoard().getFlatlandAgent().getNumberOfFoodConsumed();
             double poisonConsumed = controller.getFlatlandBoard().getFlatlandAgent().getNumberOfPoisonConsumed();
 
             score += (totalFood - foodConsumed);
-            score += poisonConsumed * 2.0;
+            score += poisonConsumed * 1.5;
         }
 
         score = 1.0 / (1.0 + score);

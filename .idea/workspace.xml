@@ -64,37 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FlatlandProgram.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/flatland/FlatlandProgram.java">
+      <file leaf-file-name="FlatlandPopulation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandPopulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="21" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParentSelection.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/ParentSelection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.07100592" vertical-offset="0" max-vertical-offset="2145">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Statistics.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utilities/Statistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="19" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="735">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Population.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/Population.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="13" selection-start="3547" selection-end="3547" vertical-scroll-proportion="0.0" vertical-offset="1323" max-vertical-offset="2610">
+            <state line="94" column="41" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0" vertical-offset="919" max-vertical-offset="2040">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,55 +75,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parameters.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/Parameters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="186" selection-start="2180" selection-end="2180" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="1020">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utilities.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/Utilities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="27" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AdultSelection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/AdultSelection.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/AdultSelection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="56" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="945">
+            <state line="67" column="26" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="1155">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlatlandBoard.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/flatland/FlatlandBoard.java">
+      <file leaf-file-name="ParentSelection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/ParentSelection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="67" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="5040">
-              <folding />
+            <state line="147" column="38" selection-start="4834" selection-end="4834" vertical-scroll-proportion="0.0" vertical-offset="1646" max-vertical-offset="2385">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlatlandController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/flatland/FlatlandController.java">
+      <file leaf-file-name="Population.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Population.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="32" selection-start="2902" selection-end="2902" vertical-scroll-proportion="0.0" vertical-offset="761" max-vertical-offset="1575">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlatlandPopulation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/flatland/FlatlandPopulation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="25" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2040">
+            <state line="164" column="128" selection-start="5358" selection-end="5358" vertical-scroll-proportion="0.65630114" vertical-offset="1999" max-vertical-offset="2610">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,7 +138,22 @@
         <option value="$PROJECT_DIR$/src/evolutionaryAlgoritm/AdultSelection.java" />
         <option value="$PROJECT_DIR$/src/evolutionaryAlgoritm/Parameters.java" />
         <option value="$PROJECT_DIR$/src/evolutionaryAlgoritm/ParentSelection.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/flatland/FlatlandBoardViewPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/flatland/FlatlandController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/flatland/FlatlandProgram.java" />
+        <option value="$PROJECT_DIR$/src/main/java/flatland/FlatlandPopulation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/AdultSelection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/ParentSelection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Population.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -263,6 +226,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubSymbolicAI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubSymbolicAI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubSymbolicAI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubSymbolicAI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="utilities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -278,6 +285,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -299,6 +314,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="flatland" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -314,6 +337,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -333,7 +364,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jfreechart-1.0.17/lib/swtgraphics2d.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
@@ -515,7 +546,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="22" width="840" height="1024" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -527,14 +558,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24937344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2585837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24937344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27575108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -563,21 +594,21 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/flatland/FlatlandProgram.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/NeuralNet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/NeuralNet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="21" selection-start="0" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1845">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/Neuron.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/Neuron.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <folding>
@@ -594,21 +625,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/NeuronLayer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/NeuronLayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/Parameters.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/Parameters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/Genotype.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Genotype.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="64" selection-start="474" selection-end="474" vertical-scroll-proportion="0.414823" vertical-offset="0" max-vertical-offset="904">
           <folding>
@@ -620,7 +651,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/Individual.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Individual.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="57" selection-start="145" selection-end="145" vertical-scroll-proportion="0.11615044" vertical-offset="0" max-vertical-offset="904">
           <folding>
@@ -636,58 +667,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/GraphVisualization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.01775148" vertical-offset="0" max-vertical-offset="1230">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/NeuronLayer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/NeuronLayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/Parameters.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/Parameters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="574">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/NeuralNet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/NeuralNet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="21" selection-start="0" selection-end="23" vertical-scroll-proportion="-1.0517242" vertical-offset="915" max-vertical-offset="1845">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/flatland/FlatlandAgent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandAgent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/flatland/FlatlandBoardViewPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3090">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/flatland/FlatlandInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/Neuron.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/Neuron.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="630">
           <folding>
@@ -704,77 +712,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/flatland/FlatlandBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="67" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="3926" max-vertical-offset="5040">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/Statistics.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="19" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/Utilities.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="27" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/flatland/FlatlandPopulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="25" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2040">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/flatland/FlatlandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="32" selection-start="2902" selection-end="2902" vertical-scroll-proportion="0.0" vertical-offset="761" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/flatland/FlatlandProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/AdultSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="56" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/Population.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="13" selection-start="3547" selection-end="3547" vertical-scroll-proportion="0.0" vertical-offset="1203" max-vertical-offset="2610">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/Parameters.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Parameters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="186" selection-start="2180" selection-end="2180" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/evolutionaryAlgoritm/ParentSelection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/GraphVisualization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.07100592" vertical-offset="0" max-vertical-offset="2145">
+        <state line="22" column="13" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandBoardViewPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="8" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="3090">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="31" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="90" selection-start="3422" selection-end="3422" vertical-scroll-proportion="0.0" vertical-offset="806" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandPopulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="41" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0" vertical-offset="919" max-vertical-offset="2040">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/AdultSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="26" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/ParentSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="38" selection-start="4834" selection-end="4834" vertical-scroll-proportion="0.0" vertical-offset="1646" max-vertical-offset="2385">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Population.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="128" selection-start="5358" selection-end="5358" vertical-scroll-proportion="0.65630114" vertical-offset="1999" max-vertical-offset="2610">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -835,6 +875,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -854,7 +895,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>hamcrest-core-1.3</last-edited>
+          <last-edited>Maven: jfree:jcommon:1.0.16</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -43,7 +43,6 @@ public abstract class Population {
         initializePopulation();
 
         for (int i = 0; i < Parameters.GENERATION_COUNT; i++) {
-            System.out.println("Generation " + i);
             newGeneration(i);
 
             for (Individual child : children) {
@@ -52,7 +51,8 @@ public abstract class Population {
 
             bestIndividual = findBestIndividual();
             updateFitnessLists(bestIndividual);
-            printIndividual(bestIndividual);
+
+            System.out.println("Generation " + (i + 1) + " - Best fitness: " + bestIndividual.getFitness());
 
             if (bestIndividual.getFitness() == getFitnessLimit()) {
                 break;
@@ -162,7 +162,7 @@ public abstract class Population {
     }
 
     public void visualizeResult() {
-        final GraphVisualization demo = new GraphVisualization("Fitness plots", fitnessList, averageFitnessList, standardDeviationList);
+        final GraphVisualization demo = new GraphVisualization("Fitness plots (" + adultSelection + " / " + parentSelection + ")", fitnessList, averageFitnessList, standardDeviationList);
         demo.pack();
         RefineryUtilities.centerFrameOnScreen(demo);
         demo.setVisible(true);

@@ -32,30 +32,30 @@ public class FlatlandController {
         this.timesteps = timesteps;
     }
 
-    public void react(ArrayList<Double> motorOutputs, boolean visualize) {
+    public void react(ArrayList<Double> motorOutputs, boolean visualize, long delay) {
 
         if (motorOutputs.get(0) > 0.5 && motorOutputs.get(1) > 0.5 && motorOutputs.get(2) > 0.5) {
-            makeMove(STAND_STILL, visualize);
+            makeMove(STAND_STILL, visualize, delay);
         } else if (motorOutputs.get(0) < 0.5 && motorOutputs.get(1) > 0.5 && motorOutputs.get(2) > 0.5) {
-            makeMove(STAND_STILL, visualize);
+            makeMove(STAND_STILL, visualize, delay);
         } else if (motorOutputs.get(0) > 0.5 && motorOutputs.get(1) < 0.5 && motorOutputs.get(2) < 0.5) {
-            makeMove(MOVE_FORWARD, visualize);
+            makeMove(MOVE_FORWARD, visualize, delay);
         } else if (motorOutputs.get(0) < 0.5 && motorOutputs.get(1) > 0.5 && motorOutputs.get(2) < 0.5) {
-            makeMove(MOVE_LEFT, visualize);
+            makeMove(MOVE_LEFT, visualize, delay);
         } else if (motorOutputs.get(0) < 0.5 && motorOutputs.get(1) < 0.5 && motorOutputs.get(2) > 0.5) {
-            makeMove(MOVE_RIGHT, visualize);
+            makeMove(MOVE_RIGHT, visualize, delay);
         } else if (motorOutputs.get(0) > 0.5 && motorOutputs.get(1) > 0.5 && motorOutputs.get(2) < 0.5) {
-            makeMove(MOVE_LEFT, visualize);
-            makeMove(MOVE_FORWARD, visualize);
+            makeMove(MOVE_LEFT, visualize, delay);
+            makeMove(MOVE_FORWARD, visualize, delay);
         } else if (motorOutputs.get(0) > 0.5 && motorOutputs.get(1) < 0.5 && motorOutputs.get(2) > 0.5) {
-            makeMove(MOVE_RIGHT, visualize);
-            makeMove(MOVE_FORWARD, visualize);
+            makeMove(MOVE_RIGHT, visualize, delay);
+            makeMove(MOVE_FORWARD, visualize, delay);
         } else if (motorOutputs.get(0) < 0.5 && motorOutputs.get(1) < 0.5 && motorOutputs.get(2) < 0.5) {
-            makeMove(STAND_STILL, visualize);
+            makeMove(STAND_STILL, visualize, delay);
         }
     }
 
-    public void makeMove(int direction, boolean visualize) {
+    public void makeMove(int direction, boolean visualize, long delay) {
         switch (direction) {
             case MOVE_FORWARD:
                 flatlandBoard.moveForward();
@@ -78,20 +78,20 @@ public class FlatlandController {
             flatlandInterface.update();
 
             try {
-                Thread.sleep(100);
+                Thread.sleep(delay);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
     }
 
-    public void runGame(NeuralNet neuralNet, boolean visualize) {
+    public void runGame(NeuralNet neuralNet, boolean visualize, long delay) {
         if (visualize) {
             flatlandInterface = new FlatlandInterface(flatlandBoard);
         }
 
         while (timesteps > 0) {
-            react(neuralNet.update(flatlandBoard.getAgentSensorValues()), visualize);
+            react(neuralNet.update(flatlandBoard.getAgentSensorValues()), visualize, delay);
         }
     }
 

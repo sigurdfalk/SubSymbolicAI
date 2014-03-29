@@ -54,4 +54,18 @@ public class AdultSelection {
         Arrays.sort(children);
         return children;
     }
+
+    @Override
+    public String toString() {
+        switch (type) {
+            case FULL_GENERATIONAL_REPLACEMENT:
+                return "Full Generational Replacement";
+            case OVER_PRODUCTION:
+                return "Over Production";
+            case GENERATIONAL_MIXING:
+                return "Generational Mixing";
+            default:
+                return "";
+        }
+    }
 }
