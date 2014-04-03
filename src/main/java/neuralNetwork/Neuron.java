@@ -8,24 +8,16 @@ import java.util.Random;
  * Date: 24.03.14
  * Time: 14:28
  */
-public class Neuron {
-    private int numberOfInputs;
-    private double[] weights;
+public abstract class Neuron {
+    protected int numberOfInputs;
+    protected double[] weights;
 
     public Neuron(int numberOfInputs) {
         this.numberOfInputs = numberOfInputs;
-        this.weights = new double[numberOfInputs + 1];
         initializeWeights();
     }
 
-    private void initializeWeights() {
-        Random random = new Random();
-
-        for (int i = 0; i < weights.length; i++) {
-            double sign = (Math.random() > 0.5) ? -1.0 : 1.0;
-            weights[i] = sign * random.nextDouble();
-        }
-    }
+    protected abstract void initializeWeights();
 
     public int getNumberOfInputs() {
         return numberOfInputs;

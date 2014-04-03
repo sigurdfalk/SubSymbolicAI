@@ -5,9 +5,9 @@ package neuralNetwork;
  * Date: 24.03.14
  * Time: 14:28
  */
-public class NeuronLayer {
-    private int numberOfNeurons;
-    private Neuron[] neurons;
+public abstract class NeuronLayer {
+    protected int numberOfNeurons;
+    protected Neuron[] neurons;
 
     public NeuronLayer(int numberOfNeurons, int numberOfInputs) {
         this.numberOfNeurons = numberOfNeurons;
@@ -15,11 +15,7 @@ public class NeuronLayer {
         createNeurons(numberOfInputs);
     }
 
-    private void createNeurons(int numberOfInputs) {
-        for (int i = 0; i < neurons.length; i++) {
-            neurons[i] = new Neuron(numberOfInputs);
-        }
-    }
+    protected abstract void createNeurons(int numberOfInputs);
 
     public int getNumberOfNeurons() {
         return numberOfNeurons;

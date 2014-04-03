@@ -3,6 +3,7 @@ package flatland;
 import evolutionaryAlgoritm.AdultSelection;
 import evolutionaryAlgoritm.ParentSelection;
 import neuralNetwork.NeuralNet;
+import neuralNetwork.standard.StandardNeuralNet;
 
 import javax.swing.*;
 import java.math.BigDecimal;
@@ -21,9 +22,9 @@ public class FlatlandProgram {
     public static void main(String[] args) {
         int type = Integer.parseInt(JOptionPane.showInputDialog("Enter flatland EA type:\n0 = Static\n1 = Dynamic"));
 
-        NeuralNet neuralNet = new NeuralNet(6, 3, 0, 4);
-        FlatlandPopulation population = new FlatlandPopulation(new AdultSelection(AdultSelection.GENERATIONAL_MIXING), new ParentSelection(ParentSelection.SIGMA_SCALING), neuralNet, type);
-        //FlatlandPopulation population = new FlatlandPopulation(neuralNet, type);
+        StandardNeuralNet neuralNet = new StandardNeuralNet(6, 3, 0, 4);
+        //FlatlandPopulation population = new FlatlandPopulation(new AdultSelection(AdultSelection.OVER_PRODUCTION), new ParentSelection(ParentSelection.SIGMA_SCALING), neuralNet, type);
+        FlatlandPopulation population = new FlatlandPopulation(neuralNet, type);
         population.runEvolution();
 
         String visualizeEA = JOptionPane.showInputDialog(null, "Visualize EA run? (y/n)");

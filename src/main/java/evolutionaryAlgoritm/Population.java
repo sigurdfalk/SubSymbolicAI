@@ -26,7 +26,7 @@ public abstract class Population {
 
     protected Population(AdultSelection adultSelection, ParentSelection parentSelection) {
         this.adults = new Individual[Parameters.POPULATION_SIZE];
-        this.children = new Individual[Parameters.POPULATION_SIZE];
+        this.children = new Individual[Parameters.POPULATION_SIZE + Parameters.OVER_PRODUCTION_COUNT];
         this.adultSelection = adultSelection;
         this.parentSelection = parentSelection;
         this.fitnessList = new ArrayList<Double>();
@@ -43,6 +43,11 @@ public abstract class Population {
         initializePopulation();
 
         for (int i = 0; i < Parameters.GENERATION_COUNT; i++) {
+            /*System.out.println();
+            for (Individual individual : children) {
+                printIndividual(individual);
+            } */
+
             newGeneration(i);
 
             for (Individual child : children) {
@@ -52,7 +57,7 @@ public abstract class Population {
             bestIndividual = findBestIndividual();
             updateFitnessLists(bestIndividual);
 
-            System.out.println("Generation " + (i + 1) + " - Best fitness: " + bestIndividual.getFitness());
+            System.out.println("Generation " + (i + 1) + " - Best fitness: " + bestIndividual.getFitness() + " : " + Arrays.toString(bestIndividual.getGenotype().getValue()));
 
             if (bestIndividual.getFitness() == getFitnessLimit()) {
                 break;
@@ -90,7 +95,7 @@ public abstract class Population {
 
     private void elitism(Individual[] adults) {
         Arrays.sort(adults);
-        children = new Individual[Parameters.POPULATION_SIZE];
+        children = new Individual[Parameters.POPULATION_SIZE + Parameters.OVER_PRODUCTION_COUNT];
 
         for (int i = 0; i < Parameters.ELITISM_COUNT; i++) {
             children[i] = adults[i].clone();

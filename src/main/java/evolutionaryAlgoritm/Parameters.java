@@ -8,13 +8,13 @@ import javax.swing.*;
  * Time: 15:04
  */
 public class Parameters {
-    public static int POPULATION_SIZE = 300;
+    public static int POPULATION_SIZE = 200;
     public static int GENERATION_COUNT = 100;
     public static int ELITISM_COUNT = 2;
     public static int OVER_PRODUCTION_COUNT = 0;
     public static double CROSSOVER_RATE = 0.8;
     public static int GENOTYPE_CROSSOVER_COUNT = 2;
-    public static double MUTATION_RATE = 0.05;
+    public static double MUTATION_RATE = 0.2;
     public static double RANK_SELECTION_MIN = 0.5;
     public static double RANK_SELECTION_MAX = 1.5;
     public static int TOURNAMENT_SELECTION_K = 5;

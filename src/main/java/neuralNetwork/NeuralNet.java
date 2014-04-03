@@ -1,19 +1,20 @@
 package neuralNetwork;
 
 import java.lang.Double;import java.lang.IllegalArgumentException;import java.lang.Math;import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * User: sigurd
  * Date: 24.03.14
  * Time: 14:28
  */
-public class NeuralNet {
-    private int numberOfInputs;
-    private int numberOfOutputs;
-    private int numberOfHiddenLayers;
-    private int numberOfHiddenLayerNeurons;
+public abstract class NeuralNet {
+    protected int numberOfInputs;
+    protected int numberOfOutputs;
+    protected int numberOfHiddenLayers;
+    protected int numberOfHiddenLayerNeurons;
 
-    private NeuronLayer[] neuronLayers;
+    protected NeuronLayer[] neuronLayers;
 
     public NeuralNet(int numberOfInputs, int numberOfOutputs, int numberOfHiddenLayers, int numberOfHiddenLayerNeurons) {
         this.numberOfInputs = numberOfInputs;
@@ -23,22 +24,10 @@ public class NeuralNet {
         createNet();
     }
 
-    private void createNet() {
-        if (numberOfHiddenLayers > 0) {
-            neuronLayers = new NeuronLayer[numberOfHiddenLayers + 1];
-            neuronLayers[0] = new NeuronLayer(numberOfHiddenLayerNeurons, numberOfInputs);
+    protected abstract void createNet();
 
-            for (int i = 1; i < neuronLayers.length - 1; i++) {
-                neuronLayers[i] = new NeuronLayer(numberOfHiddenLayerNeurons, numberOfHiddenLayerNeurons);
-            }
 
-            neuronLayers[neuronLayers.length - 1] = new NeuronLayer(numberOfOutputs, numberOfHiddenLayerNeurons);
-        } else {
-            neuronLayers = new NeuronLayer[]{new NeuronLayer(numberOfOutputs, numberOfInputs)};
-        }
-    }
-
-    private double sigmoid(double netInput, double response) {
+    protected double sigmoid(double netInput, double response) {
         return 1 / (1 + Math.exp(-netInput / response));
     }
 
@@ -82,36 +71,5 @@ public class NeuralNet {
         return numberOfWeights;
     }
 
-    public ArrayList<Double> update(ArrayList<Double> inputs) {
-        ArrayList<Double> outputs = new ArrayList<>();
-        int weightCount = 0;
-
-        if (inputs.size() != numberOfInputs) {
-            throw new IllegalArgumentException("Size of inputs differs from numberOfInputs.");
-        }
-
-        for (int i = 0; i < numberOfHiddenLayers + 1; i++) {
-            if (i > 0) {
-                inputs = (ArrayList<Double>) outputs.clone();
-            }
-
-            outputs.clear();
-            weightCount = 0;
-
-            for (int j = 0; j < neuronLayers[i].getNumberOfNeurons(); j++) {
-                double netInput = 0;
-                int numInputs = neuronLayers[i].getNeurons()[j].getNumberOfInputs();
-
-                for (int k = 0; k < numInputs - 1; k++) {
-                    netInput += neuronLayers[i].getNeurons()[j].getWeights()[k] * inputs.get(weightCount++);
-                }
-
-                netInput += neuronLayers[i].getNeurons()[j].getWeights()[numInputs - 1] * Parameters.BIAS;
-                outputs.add(sigmoid(netInput, Parameters.ACTIVATION_RESPONSE));
-                weightCount = 0;
-            }
-        }
-
-        return outputs;
-    }
+    public abstract ArrayList<Double> update(ArrayList<Double> inputs);
 }

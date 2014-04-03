@@ -1,6 +1,7 @@
 package flatland;
 
 import neuralNetwork.NeuralNet;
+import org.jfree.ui.RefineryUtilities;
 import sun.net.www.content.text.plain;
 
 import java.util.ArrayList;
@@ -35,8 +36,10 @@ public class FlatlandController {
     public void react(ArrayList<Double> motorOutputs, boolean visualize, long delay) {
 
         if (motorOutputs.get(0) > 0.5 && motorOutputs.get(1) > 0.5 && motorOutputs.get(2) > 0.5) {
-            makeMove(STAND_STILL, visualize, delay);
+            //makeMove(STAND_STILL, visualize, delay);
+            makeMove(MOVE_FORWARD, visualize, delay);
         } else if (motorOutputs.get(0) < 0.5 && motorOutputs.get(1) > 0.5 && motorOutputs.get(2) > 0.5) {
+            //makeMove(STAND_STILL, visualize, delay);
             makeMove(STAND_STILL, visualize, delay);
         } else if (motorOutputs.get(0) > 0.5 && motorOutputs.get(1) < 0.5 && motorOutputs.get(2) < 0.5) {
             makeMove(MOVE_FORWARD, visualize, delay);
@@ -88,6 +91,7 @@ public class FlatlandController {
     public void runGame(NeuralNet neuralNet, boolean visualize, long delay) {
         if (visualize) {
             flatlandInterface = new FlatlandInterface(flatlandBoard);
+            RefineryUtilities.positionFrameRandomly(flatlandInterface);
         }
 
         while (timesteps > 0) {

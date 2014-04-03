@@ -88,9 +88,9 @@ public class ParentSelection {
     }
 
     private Individual[] getParents(Individual[] adults, double[] rouletteWheel) {
-        Individual[] parents = new Individual[Parameters.POPULATION_SIZE - Parameters.ELITISM_COUNT];
+        Individual[] parents = new Individual[Parameters.POPULATION_SIZE - Parameters.ELITISM_COUNT + Parameters.OVER_PRODUCTION_COUNT];
 
-        for (int i = 0; i < (parents.length + Parameters.OVER_PRODUCTION_COUNT); i++) {
+        for (int i = 0; i < parents.length; i++) {
             parents[i] = adults[getRouletteWheelIndex(rouletteWheel)].clone();
         }
 
@@ -114,7 +114,7 @@ public class ParentSelection {
     }
 
     private Individual[] tournamentSelection(Individual[] adults) {
-        Individual[] parents = new Individual[Parameters.POPULATION_SIZE - Parameters.ELITISM_COUNT];
+        Individual[] parents = new Individual[Parameters.POPULATION_SIZE - Parameters.ELITISM_COUNT + Parameters.OVER_PRODUCTION_COUNT];
         Random random = new Random();
 
         for (int i = 0; i < parents.length; i++) {

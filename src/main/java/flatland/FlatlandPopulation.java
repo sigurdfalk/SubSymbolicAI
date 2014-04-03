@@ -2,6 +2,7 @@ package flatland;
 
 import evolutionaryAlgoritm.*;
 import neuralNetwork.NeuralNet;
+import neuralNetwork.standard.StandardNeuralNet;
 
 import java.util.ArrayList;
 
@@ -15,17 +16,17 @@ public class FlatlandPopulation extends Population {
     public static final int TYPE_DYNAMIC = 1;
 
     private ArrayList<FlatlandController> flatlandControllers;
-    private NeuralNet neuralNet;
+    private StandardNeuralNet neuralNet;
     private int type;
 
-    protected FlatlandPopulation(AdultSelection adultSelection, ParentSelection parentSelection, NeuralNet neuralNet, int type) {
+    protected FlatlandPopulation(AdultSelection adultSelection, ParentSelection parentSelection, StandardNeuralNet neuralNet, int type) {
         super(adultSelection, parentSelection);
         this.neuralNet = neuralNet;
         this.flatlandControllers = new ArrayList<>();
         this.type = type;
     }
 
-    public FlatlandPopulation(NeuralNet neuralNet, int type) {
+    public FlatlandPopulation(StandardNeuralNet neuralNet, int type) {
         super();
         this.neuralNet = neuralNet;
         this.type = type;
@@ -64,12 +65,12 @@ public class FlatlandPopulation extends Population {
     protected void initializePopulation() {
         generateFlatlandControllers();
 
-        for (int i = 0; i < Parameters.POPULATION_SIZE; i++) {
+        for (int i = 0; i < children.length; i++) {
             Object[] dna = new Object[neuralNet.getNumberOfWeights()];
 
             for (int j = 0; j < dna.length; j++) {
                 double sign = (Math.random() > 0.5) ? -1.0 : 1.0;
-                dna[j] = sign * Math.random();
+                dna[j] = sign * (Math.random() * 5.0);
             }
 
             Genotype genotype = new Genotype(dna);
@@ -89,13 +90,21 @@ public class FlatlandPopulation extends Population {
 
             double totalFood = controller.getFlatlandBoard().getTotalFood();
             double foodConsumed = controller.getFlatlandBoard().getFlatlandAgent().getNumberOfFoodConsumed();
+            double totalPoison = controller.getFlatlandBoard().getTotalPoison();
             double poisonConsumed = controller.getFlatlandBoard().getFlatlandAgent().getNumberOfPoisonConsumed();
 
-            score += (totalFood - foodConsumed);
-            score += poisonConsumed * 1.5;
+            //score += (totalFood - foodConsumed);
+            //score += poisonConsumed;
+
+            score += foodConsumed / totalFood;
+            score -= (poisonConsumed / totalPoison) * 1.2;
+
+            //score += foodConsumed * 1.5;
+            //score -= poisonConsumed;
         }
 
-        score = 1.0 / (1.0 + score);
+        //score = 1.0 / (1.0 + score);
+        score /= 5.0;
         individual.setFitness(score);
     }
 
