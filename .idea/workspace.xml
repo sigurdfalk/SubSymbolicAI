@@ -18,7 +18,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -54,9 +54,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_rules />
-    <ui_properties />
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -64,56 +63,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Parameters.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Parameters.java">
+      <file leaf-file-name="MISNodeManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/localSignaling/mis/MISNodeManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="64" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="1020">
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1490" max-vertical-offset="1995">
+              <caret line="111" column="60" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrackerProgram.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerProgram.java">
+      <file leaf-file-name="VertexColoringNodeManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/localSignaling/vertexColoring/VertexColoringNodeManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="94" selection-start="5584" selection-end="5584" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2520">
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1994" max-vertical-offset="2535">
+              <caret line="146" column="59" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrackerPopulation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerPopulation.java">
+      <file leaf-file-name="LocalSignalingProgram.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/localSignaling/LocalSignalingProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="14" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlatlandProgram.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandProgram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="8" selection-start="870" selection-end="870" vertical-scroll-proportion="0.26936027" vertical-offset="0" max-vertical-offset="891">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CTRNNNeuralNet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/ctrnn/CTRNNNeuralNet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="0" selection-start="3895" selection-end="3895" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="1695">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrackerController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="77" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
-              <folding />
+            <state vertical-scroll-proportion="0.74861366" vertical-offset="0" max-vertical-offset="541">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,21 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/evolutionaryAlgoritm/Utilities.java" />
-        <option value="$PROJECT_DIR$/src/evolutionaryAlgoritm/Genotype.java" />
-        <option value="$PROJECT_DIR$/src/evolutionaryAlgoritm/Individual.java" />
-        <option value="$PROJECT_DIR$/src/evolutionaryAlgoritm/GraphVisualization.java" />
-        <option value="$PROJECT_DIR$/src/neuralNetwork/NeuralNet.java" />
-        <option value="$PROJECT_DIR$/src/neuralNetwork/Neuron.java" />
-        <option value="$PROJECT_DIR$/src/neuralNetwork/NeuronLayer.java" />
-        <option value="$PROJECT_DIR$/src/neuralNetwork/Parameters.java" />
-        <option value="$PROJECT_DIR$/src/flatland/FlatlandBoardViewPanel.java" />
-        <option value="$PROJECT_DIR$/src/flatland/FlatlandAgent.java" />
-        <option value="$PROJECT_DIR$/src/flatland/FlatlandInterface.java" />
-        <option value="$PROJECT_DIR$/src/flatland/FlatlandBoard.java" />
-        <option value="$PROJECT_DIR$/src/flatland/Player.java" />
-        <option value="$PROJECT_DIR$/src/flatland/AIPlayer.java" />
-        <option value="$PROJECT_DIR$/src/utilities/Statistics.java" />
         <option value="$PROJECT_DIR$/src/evolutionaryAlgoritm/Population.java" />
         <option value="$PROJECT_DIR$/src/flatland/FlatlandPopulation.java" />
         <option value="$PROJECT_DIR$/src/flatland/FlatlandController.java" />
@@ -158,24 +128,42 @@
         <option value="$PROJECT_DIR$/src/main/java/neuralNetwork/standard/StandardNeuronLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/neuralNetwork/NeuronLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/neuralNetwork/ctrnn/CTRNNNeuronLayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/Numbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/flatland/FlatlandController.java" />
         <option value="$PROJECT_DIR$/src/main/java/tracker/TrackerObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Population.java" />
         <option value="$PROJECT_DIR$/src/main/java/neuralNetwork/standard/StandardNeuralNet.java" />
         <option value="$PROJECT_DIR$/src/main/java/neuralNetwork/NeuralNet.java" />
         <option value="$PROJECT_DIR$/src/main/java/tracker/TrackerEnvironmentViewPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Parameters.java" />
         <option value="$PROJECT_DIR$/src/main/java/tracker/TrackerInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/neuralNetwork/ctrnn/CTRNNNeuron.java" />
         <option value="$PROJECT_DIR$/src/main/java/tracker/TrackerEnvironment.java" />
         <option value="$PROJECT_DIR$/src/main/java/neuralNetwork/standard/StandardNeuron.java" />
         <option value="$PROJECT_DIR$/src/main/java/flatland/FlatlandPopulation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tracker/TrackerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/neuralNetwork/ctrnn/CTRNNNeuralNet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tracker/TrackerProgram.java" />
         <option value="$PROJECT_DIR$/src/main/java/tracker/TrackerPopulation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tracker/TrackerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tracker/TrackerProgram.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Genotype.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Parameters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implementations/tracker/flatland/FlatlandProgram.java" />
         <option value="$PROJECT_DIR$/src/main/java/flatland/FlatlandProgram.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implementations/flatland/FlatlandProgram.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/Edge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/Numbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/Mathematics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/MISPopulation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/NodeManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/Population.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/MISNodeManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/gui/GraphViewerPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/gui/GraphViewer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/core/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/core/Population.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/core/NodeManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/vertexColoring/VertexColoringNodeManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/mis/MISNodeManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/localSignaling/LocalSignalingProgram.java" />
       </list>
     </option>
   </component>
@@ -205,7 +193,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -217,8 +205,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,7 +224,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -248,15 +234,15 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -266,15 +252,15 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -284,23 +270,19 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utilities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -310,165 +292,17 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="neuralNetwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="neuralNetwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="standard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="neuralNetwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrnn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatland" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSymbolicAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="evolutionaryAlgoritm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="dataFiles" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -487,15 +321,30 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="settings.xslt" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Application.FlatlandProgram">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataFiles" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataFiles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LocalSignalingProgram">
     <configuration default="false" name="FlatlandProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flatland.FlatlandProgram" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="implementations.flatland.FlatlandProgram" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -506,7 +355,7 @@
       <method />
     </configuration>
     <configuration default="false" name="TrackerProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tracker.TrackerProgram" />
+      <option name="MAIN_CLASS_NAME" value="implementations.tracker.TrackerProgram" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -527,7 +376,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
@@ -551,6 +400,7 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -652,11 +502,29 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.FlatlandProgram" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TrackerProgram" />
+    <configuration default="false" name="LocalSignalingProgram" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="localSignaling.LocalSignalingProgram" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SubSymbolicAI" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.LocalSignalingProgram" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FlatlandProgram" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TrackerProgram" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -675,6 +543,9 @@
       <AnalysisUIOptions />
     </option>
   </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="81d6e0bc-1fb3-4526-b8b3-3be8ede929c3" name="Default" comment="" />
@@ -685,7 +556,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -697,23 +568,26 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32762313" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32725322" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24812031" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11172161" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9141631" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10622711" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914164" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38948497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -733,324 +607,405 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Parameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="64" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="36" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2535">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="8" selection-start="5845" selection-end="5947" vertical-scroll-proportion="0.0" vertical-offset="2625" max-vertical-offset="3585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Parameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="12" selection-start="1533" selection-end="1630" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/ctrnn/CTRNNNeuralNet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="9" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandPopulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="8" selection-start="2524" selection-end="2604" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2115">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="36" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Population.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="172" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="2670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/ctrnn/CTRNNNeuron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="67" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="32" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Parameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/NeuralNet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="0" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/Neuron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/NeuronLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Genotype.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="64" selection-start="474" selection-end="474" vertical-scroll-proportion="0.414823" vertical-offset="0" max-vertical-offset="904" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Individual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="57" selection-start="145" selection-end="145" vertical-scroll-proportion="0.11615044" vertical-offset="0" max-vertical-offset="904">
-          <folding>
-            <element signature="e#458#459#0" expanded="false" />
-            <element signature="e#489#490#0" expanded="false" />
-            <element signature="e#539#540#0" expanded="false" />
-            <element signature="e#579#580#0" expanded="false" />
-            <element signature="e#613#614#0" expanded="false" />
-            <element signature="e#643#644#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#727#728#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandAgent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/flatland/FlatlandAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/flatland/FlatlandBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="67" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="3926" max-vertical-offset="5040" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3926" max-vertical-offset="5040">
+          <caret line="30" column="67" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utilities/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="19" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="735" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="735">
+          <caret line="40" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="16" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="15" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/GraphVisualization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="30" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1230" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1230">
+          <caret line="46" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/Neuron.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="11" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/flatland/FlatlandInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="347" selection-end="1701" vertical-scroll-proportion="0.16329704" vertical-offset="120" max-vertical-offset="870" />
+        <state vertical-scroll-proportion="0.16329704" vertical-offset="120" max-vertical-offset="870">
+          <caret line="16" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/standard/StandardNeuronLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="415" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/Numbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="17" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/standard/StandardNeuralNet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="86" selection-start="2294" selection-end="2294" vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="1110" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="1110">
+          <caret line="61" column="86" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/ctrnn/CTRNNNeuronLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="52" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="9" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandBoardViewPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/flatland/FlatlandBoardViewPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="322" selection-end="395" vertical-scroll-proportion="-0.93167704" vertical-offset="600" max-vertical-offset="3090" />
+        <state vertical-scroll-proportion="-0.93167704" vertical-offset="600" max-vertical-offset="3090">
+          <caret line="16" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerEnvironmentViewPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/tracker/TrackerEnvironmentViewPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="77" selection-start="2748" selection-end="2748" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1725" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1725">
+          <caret line="85" column="77" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Population.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="2610">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="2610">
+          <caret line="14" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/ParentSelection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="2340">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="2340">
+          <caret line="12" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/AdultSelection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="1155">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="1155">
+          <caret line="9" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/NeuralNet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="10" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/NeuronLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="7" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/tracker/TrackerObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="32" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.5029586" vertical-offset="300" max-vertical-offset="1620">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="7" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/flatland/FlatlandController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="43" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="1050" />
+        <state vertical-scroll-proportion="0.5029586" vertical-offset="300" max-vertical-offset="1620">
+          <caret line="42" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/tracker/TrackerInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="1050">
+          <caret line="44" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/ctrnn/CTRNNNeuron.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="8" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="930">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="930">
+          <caret line="40" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerEnvironment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/tracker/TrackerEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="52" selection-start="390" selection-end="390" vertical-scroll-proportion="0.295858" vertical-offset="60" max-vertical-offset="3630">
-          <folding />
+        <state vertical-scroll-proportion="0.295858" vertical-offset="60" max-vertical-offset="3630">
+          <caret line="16" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/standard/StandardNeuron.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="59" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandPopulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="12" selection-start="3343" selection-end="3343" vertical-scroll-proportion="0.0" vertical-offset="1113" max-vertical-offset="2115">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="24" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Parameters.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/flatland/FlatlandPopulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="64" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="77" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1113" max-vertical-offset="2115">
+          <caret line="99" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neuralNetwork/ctrnn/CTRNNNeuralNet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="0" selection-start="3895" selection-end="3895" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="1695">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="1695">
+          <caret line="105" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/tracker/TrackerPopulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
+          <caret line="23" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/tracker/TrackerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="2445">
+          <caret line="40" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/tracker/TrackerProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7894737" vertical-offset="0" max-vertical-offset="2700">
+          <caret line="30" column="99" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/flatland/FlatlandProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35064936" vertical-offset="138" max-vertical-offset="990">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Parameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="32" column="178" selection-start-line="32" selection-start-column="178" selection-end-line="32" selection-end-column="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/localSignaling/core/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerProgram.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/Mathematics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="94" selection-start="5584" selection-end="5584" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2520">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/Numbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62150055" vertical-offset="0" max-vertical-offset="893">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataFiles/graph-color-1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tracker/TrackerPopulation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/localSignaling/gui/GraphViewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
+        <state vertical-scroll-proportion="0.0" vertical-offset="463" max-vertical-offset="1410">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1556#1557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataFiles/rand-50-4-color1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2625">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flatland/FlatlandProgram.java">
+    <entry file="file://$PROJECT_DIR$/dataFiles/rand-100-4-color1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="870" selection-end="870" vertical-scroll-proportion="0.26936027" vertical-offset="0" max-vertical-offset="891">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5025">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataFiles/spiral-500-4-color1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22785">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataFiles/rand-100-6-color1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8715">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataFiles/graph-color-2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Genotype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4990758" vertical-offset="0" max-vertical-offset="541">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evolutionaryAlgoritm/Individual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7763401" vertical-offset="0" max-vertical-offset="675">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/localSignaling/core/Population.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="12" column="82" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/localSignaling/core/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="990">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/localSignaling/gui/GraphViewerPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="313" max-vertical-offset="1500">
+          <caret line="60" column="97" selection-start-line="60" selection-start-column="97" selection-end-line="60" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/localSignaling/mis/MISNodeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1490" max-vertical-offset="1995">
+          <caret line="111" column="60" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/localSignaling/vertexColoring/VertexColoringNodeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1994" max-vertical-offset="2535">
+          <caret line="146" column="59" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/localSignaling/core/NodeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9149723" vertical-offset="59" max-vertical-offset="1395">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="21" />
+          <folding>
+            <element signature="e#2257#2258#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
+            <element signature="e#2326#2327#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/localSignaling/LocalSignalingProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74861366" vertical-offset="0" max-vertical-offset="541">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
